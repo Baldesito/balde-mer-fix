@@ -5,7 +5,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import ShowTV from "./components/ShowTV";
+import ShowTV from "./components/ShowTv";
 import MovieDetails from "./components/MovieDetails";
 import NotFound from "./components/NotFound";
 import Footer from "./components/Footer";
