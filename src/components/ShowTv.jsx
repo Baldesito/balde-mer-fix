@@ -1,12 +1,16 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+import { Form } from "react-bootstrap";
 
-const TVShows = () => {
+const ShowsTV = () => {
   return (
     <div>
       <h1 className="text-white">TV Shows</h1>
+      <Form.Group controlId="search">
+        <Form.Label className="text-white">Search</Form.Label>
+        <Form.Control type="text" placeholder="Cerca Serie TV.." />
+        <button className="btn btn-primary mt-2">Cerca</button>
+      </Form.Group>
     </div>
   );
 };
 
-export default TVShows;
+export default ShowsTV;
